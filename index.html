@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="background" class="background">
+        <div class="music-player">
+            <img src="album-cover1.jpg" alt="Album Cover" class="album-cover" id="album-cover">
+            <div class="info">
+                <h2 id="song-title">Сон/Son</h2>
+                <p id="artist-name">Molchat Doma</p>
+            </div>
+            <div class="controls">
+                <button id="prev">&#9664;</button>
+                <button id="play">&#9654;</button>
+                <button id="next">&#9654;&#9654;</button>
+            </div>
+            <input type="range" id="progress" value="0" max="100">
+        </div>
+    </div>
+
+    <audio id="audio" src="your-music-file1.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
